@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Provider</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Icons ke liye daal diya-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="menu-icon" onclick="toggleSidebar()">
+      <span class="material-icons-outlined">menu</span>
+    </div>
+    <div class="brand"></div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+      <button>Search</button>
+    </div>
+    <div class="header-buttons">
+      <button>Login</button>
+      <button>Sign Up</button>
+    </div>
+  </header>
+  
+  <aside id="sidebar">
+    <div class="sidebar-title">
+        <div class="sidebar-brand"> गृहSEVA </div>
+    </div>
+    <span class="close-btn" onclick="toggleSidebar()">&times;</span>
+    <ul class="sidebar-list">
+        <li class="sidebar-list-item">
+          <a href="#" target="_blank">
+            <span class="material-icons-outlined">home</span> Home
+          </a>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="profile.html" target="_blank">
+            <span class="material-icons-outlined">account_circle</span> Profile
+          </a>
+        </li>
+        <li class="sidebar-list-item dropdown">
+        <a href="#" class="dropdown-btn">
+          <span class="material-icons-outlined">cleaning_services</span> Services
+          <span class="material-icons-outlined arrow">arrow_drop_down</span>
+        </a>
+        <div class="dropdown-content">
+          <a href="services.html">Daily Life</a>
+          <a href="services1.html">One Time</a>
+        </div>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="about.html" target="_blank">
+            <span class="material-icons-outlined">group</span> About Us
+          </a>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="contact.html" target="_blank">
+            <span class="material-icons-outlined">call</span> Contact
+          </a>
+        </li>
+      </ul>
+  </aside>
+  <!-----------------content----------------->
+  <div class="content">
+    <div class="left-part">
+    <h1>HIRE THE BEST<br>DOMESTIC HELPERS<br>AND RELAX</h1>
+    <p>गृहSEVA offers the services of professionally trained helpers <br>for households.गृहSEVA kare aapka kaam aasaan.</p>
+    <span class="learn_more"><button>Learn More</button></span>
+    <span class="book"><button> Book Now</button></span>
+    </div>
+    <div class="right-part">
+    <div class="image"></div>
+    </div>
+  </div> 
+  <!-- content finish-->
+
+  <section class="how-it-works">
+    <div class="step">
+      <div class="step-icon">1</div>
+      <div class="step-content">
+        <h2>BOOK</h2>
+        <p>You can book services easily through the website and wait till your service is confirmed  </p>
+        <p>There are two types of service one time and and recurring.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-icon">2</div>
+      <div class="step-content">
+        <h2>SERVICE</h2>
+        <p>Services can be one time or reoccurring which included cook help, nanny, gardner, electrician, etc. </p>
+        <p>These services are provided by well trained as well as well verified experts.  </p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-icon">3</div>
+      <div class="step-content">
+        <h2>FEEDBACK</h2>
+        <p> Your feedback is valueable for us. Kindly rate the service as well as the expert and provide suggestions.</p>
+        <p> Your rating will pay a significant role in the ranking of the experts on our websites.</p>
+      </div>
+    </div>
+  </section>
+<!-- how it works finish-->
+<section class="reviews">
+    <h2 class="section-heading">What Our Clients Say</h2>
+    <div class="review">
+      <p class="review-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend posuere arcu, non hendrerit odio fermentum quis. Sed vestibulum sapien in justo sagittis, vel consectetur libero tempus. Pellentesque convallis sapien a purus consectetur."</p>
+      <p class="review-author">- John Doe</p>
+    </div>
+  </section>
+  
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
+
